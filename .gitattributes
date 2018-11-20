@@ -1,0 +1,8 @@
+src/version.cpp export-subst
+*.a filter=lfs diff=lfs merge=lfs -text
+test_ohwecoin filter=lfs diff=lfs merge=lfs -text
+test_ohwecoin-qt filter=lfs diff=lfs merge=lfs -text
+src/qt/test/test_ohwecoin-qt filter=lfs diff=lfs merge=lfs -text
+src/test/test_ohwecoin filter=lfs diff=lfs merge=lfs -text
+src/libbitcoin_server.a filter=lfs diff=lfs merge=lfs -text
+src/qt/libbitcoinqt.a filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,35 @@
+src/*.exe
+src/ohwecoin
+src/ohwecoind
+src/test_ohwecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ohwecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+ohwecoin-qt
+Ohwecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+ohwecoin-qt_test
+src/qt/test/test_ohwecoin-qt
+src/test/test_ohwecoin
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
